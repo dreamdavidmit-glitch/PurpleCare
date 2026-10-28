@@ -1,0 +1,41 @@
+# Local runtime data, reports and browser profile backups (at any depth)
+Data/
+Edge/
+Reports/
+User Data/
+Default/
+Edge备份*/
+*.partial/
+*.log
+startup-error.txt
+backup-result.json
+before-*.json
+repair-session-*.json
+*self-tests.txt
+*fixtures*/
+synthetic-full-report.html
+
+# Generated files
+/artifacts/
+/dist/
+Build/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.user
+*.suo
+.vs/
+.idea/
+
+# Local credentials / environment
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+Thumbs.db
+.DS_Store
